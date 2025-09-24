@@ -9,11 +9,13 @@ async function fetchMenus() {
 
     menus.forEach(menu => {
       const div = document.createElement('div');
+       div.classList.add('menu-item');
       div.innerHTML = `
-        <h2>${menu.nom}</h2>
-        <p>Prix : ${menu.prix} €</p>
-        <p>Description : ${menu.description}</p>
-        <hr>
+        <h2>${menu.plate}</h2>
+        <span> ${menu.image}</span>
+        <p> ${menu.description}</p>
+        <button> Commander </button>
+        
       `;
       container.appendChild(div);
     });

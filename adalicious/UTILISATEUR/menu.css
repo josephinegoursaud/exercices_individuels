@@ -1,3 +1,36 @@
+h2 {
+    text-align: center;
+}
+
 #menu-container{
+
     border-radius: 20px;
+    text-align: center;
+
+}
+   .menu-item {
+ max-width: 500px; 
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #FFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+
+  button {  
+    border-radius: 12px;
+    border: black;
+    background-color: #77b5fe ;
+    color: white; 
+  }
+  
+  p{
+text-align: center;
+  }
+
+span{
+    font-size: 40px;
+      
+}
 }
